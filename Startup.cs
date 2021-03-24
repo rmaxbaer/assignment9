@@ -59,7 +59,7 @@ namespace FilmCollection
                 endpoints.MapControllerRoute("editing",
                   "Edits/{id}",
                   new { Controller = "Home", action = "Edits"});
-                //This endpoint is for deleting
+                //This endpoint is for deleting 
                 endpoints.MapControllerRoute("deleting",
                   "Deletes/{id}",
                   new { Controller = "Home", action = "Deletes" });
