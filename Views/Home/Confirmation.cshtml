@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Confirmation";
+    ViewBag.Title = "Thanks for submitting the movie, \"" + Model.Title + ".\"";
+}
+
+@model FilmCollection.Models.Film
+
+<div>
+    <h1>Click <a asp-action="CurrentFilms">here</a> to see the current films.</h1>
+    
+</div>
